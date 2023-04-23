@@ -4,12 +4,17 @@ A split federated learning demo with Pytorch
 
 Two clients and a server was implemented.
 
+The [training-based Model Inversion Attack (MIA)](https://doi.org/10.1145/3319535.3354261) is implemented.
 
 ## Usage
 
 Install Pytorch >=1.8.1 and torchplus
 
-Run main.py
+Run main.py to train the classifier using split federated learning.
+
+Run attack.py to perform MIA.
+
+Run export.py to export both the private images and auxiliary images.
 
 ## License
 
