@@ -8,7 +8,7 @@ The [training-based Model Inversion Attack (MIA)](https://doi.org/10.1145/331953
 
 ## Usage
 
-Install Pytorch >=1.8.1 and torchplus
+Install Pytorch >=1.8.1 and [torchplus](https://github.com/zhangzp9970/torchplus)
 
 Run main.py to train the classifier using split federated learning.
 
